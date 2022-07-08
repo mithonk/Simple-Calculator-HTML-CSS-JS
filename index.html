@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>simple calculator</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="javascript.js"></script>
+	</head>
+	<body>
+		<form> 
+			<h3>Simple Calculator</h3>
+			<div class="enternumber">
+				<div class="enternumber1">
+					<label for="number1">NUMBER 1</label>
+					<input type="text" class="number1" name="number1" id="inumber1"> 
+				</div>
+				<div class="enternumber2">
+					<label for="number2">NUMBER 2</label>
+					<input type="text" class="number2" name="number2" id="inumber2"> 
+				</div>
+			</div>
+			<br>
+			<div class="clickbutton">
+				<input type="button" class="button" name="add" id="add" value="+" onclick="addm()"> 
+				<input type="button" class="button" name="sub" id="sub" value="-" onclick="subm()">
+				<input type="button" class="button" name="mul" id="mul" value="*" onclick="mulm()">
+				<input type="button" class="button" name="div" id="div" value="/" onclick="divm()">
+			</div>
+			<br>
+			<div class="iresult">
+				<label for="result">RESULTS</label>
+				<br>
+				<input type="text" class="result" name="result" id="iresult"> 
+			</div>
+			
+		
+		</form>
+	</body>
+</html>
